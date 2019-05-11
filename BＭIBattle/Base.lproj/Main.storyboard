@@ -100,6 +100,33 @@
             </objects>
             <point key="canvasLocation" x="1375" y="319"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="nqb-Y6-iNW">
+            <objects>
+                <viewController id="Haw-X4-Zf1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dwT-MH-Ce2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Main" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nS4-NM-Ewr">
+                                <rect key="frame" x="135.5" y="303.5" width="104" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="nS4-NM-Ewr" firstAttribute="centerX" secondItem="dwT-MH-Ce2" secondAttribute="centerX" id="JYJ-qJ-quM"/>
+                            <constraint firstItem="nS4-NM-Ewr" firstAttribute="centerY" secondItem="dwT-MH-Ce2" secondAttribute="centerY" id="OJ4-me-JVr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ryc-7g-jLr"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DZY-Es-E4V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2303" y="-12"/>
+        </scene>
         <!--Third Page View Controller-->
         <scene sceneID="R5i-t9-gpV">
             <objects>
@@ -114,11 +141,25 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ONP-U1-yqn">
+                                <rect key="frame" x="153" y="403" width="68" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="JLS-6Q-Mel"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Enter"/>
+                                <connections>
+                                    <segue destination="Haw-X4-Zf1" kind="show" id="10V-PW-bF7"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="ONP-U1-yqn" firstAttribute="leading" secondItem="7Oq-t6-t7q" secondAttribute="leading" constant="153" id="GFt-yz-9aP"/>
                             <constraint firstItem="uul-2H-xDO" firstAttribute="centerY" secondItem="0k7-ql-9fh" secondAttribute="centerY" id="GKq-EZ-3Da"/>
+                            <constraint firstItem="7Oq-t6-t7q" firstAttribute="bottom" secondItem="ONP-U1-yqn" secondAttribute="bottom" constant="216" id="c75-Gx-NjU"/>
                             <constraint firstItem="uul-2H-xDO" firstAttribute="centerX" secondItem="0k7-ql-9fh" secondAttribute="centerX" id="rfl-3C-S6E"/>
+                            <constraint firstItem="7Oq-t6-t7q" firstAttribute="trailing" secondItem="ONP-U1-yqn" secondAttribute="trailing" constant="154" id="seA-w3-U8f"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7Oq-t6-t7q"/>
                     </view>
@@ -135,6 +176,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="yia-08-zsy"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kZ8-Sn-P8r" userLabel="First Responder" sceneMemberID="firstResponder"/>
