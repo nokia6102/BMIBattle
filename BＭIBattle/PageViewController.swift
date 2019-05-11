@@ -29,6 +29,7 @@ class PageViewController: UIPageViewController {
         self.viewControllerList.append(self.getViewController(withStoryboardID: "FirstPageViewController"))
         self.viewControllerList.append(self.getViewController(withStoryboardID: "SecondPageViewController"))
         self.viewControllerList.append(self.getViewController(withStoryboardID: "ThirdPageViewController"))
+        self.viewControllerList.append(self.getViewController(withStoryboardID: "ForthPageViewController"))
         
         self.delegate = self
         self.dataSource = self

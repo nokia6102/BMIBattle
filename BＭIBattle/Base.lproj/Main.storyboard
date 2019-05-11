@@ -240,10 +240,10 @@
             </objects>
             <point key="canvasLocation" x="3190" y="2388"/>
         </scene>
-        <!--Third Page View Controller-->
+        <!--Forth Page View Controller-->
         <scene sceneID="R5i-t9-gpV">
             <objects>
-                <viewController storyboardIdentifier="ThirdPageViewController" id="ODv-Vp-5YZ" customClass="ThirdPageViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ThirdPageViewController" id="ODv-Vp-5YZ" customClass="ForthPageViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0k7-ql-9fh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -254,32 +254,58 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ONP-U1-yqn">
-                                <rect key="frame" x="153" y="403" width="68" height="48"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="48" id="JLS-6Q-Mel"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Enter"/>
-                                <connections>
-                                    <segue destination="Ls7-il-NXb" kind="show" id="10V-PW-bF7"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="ONP-U1-yqn" firstAttribute="leading" secondItem="7Oq-t6-t7q" secondAttribute="leading" constant="153" id="GFt-yz-9aP"/>
                             <constraint firstItem="uul-2H-xDO" firstAttribute="centerY" secondItem="0k7-ql-9fh" secondAttribute="centerY" id="GKq-EZ-3Da"/>
-                            <constraint firstItem="7Oq-t6-t7q" firstAttribute="bottom" secondItem="ONP-U1-yqn" secondAttribute="bottom" constant="216" id="c75-Gx-NjU"/>
                             <constraint firstItem="uul-2H-xDO" firstAttribute="centerX" secondItem="0k7-ql-9fh" secondAttribute="centerX" id="rfl-3C-S6E"/>
-                            <constraint firstItem="7Oq-t6-t7q" firstAttribute="trailing" secondItem="ONP-U1-yqn" secondAttribute="trailing" constant="154" id="seA-w3-U8f"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7Oq-t6-t7q"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="avv-95-h1l" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1374" y="996"/>
+            <point key="canvasLocation" x="1374" y="1006"/>
+        </scene>
+        <!--Forth Page View Controller-->
+        <scene sceneID="R9z-2c-8MT">
+            <objects>
+                <viewController storyboardIdentifier="ForthPageViewController" id="elg-G7-tB2" customClass="ForthPageViewController" customModule="B_IBattle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cn0-5R-T4c">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Intro4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1JT-ns-uaV">
+                                <rect key="frame" x="125" y="303" width="126" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NSh-Aj-fNW">
+                                <rect key="frame" x="153" y="397" width="69" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="iAX-FM-T4w"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Enter"/>
+                                <connections>
+                                    <segue destination="Ls7-il-NXb" kind="show" id="ioH-Dr-VoE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="NSh-Aj-fNW" firstAttribute="leading" secondItem="sCS-jv-hx5" secondAttribute="leading" constant="153" id="9Yz-yb-Tzh"/>
+                            <constraint firstItem="sCS-jv-hx5" firstAttribute="bottom" secondItem="NSh-Aj-fNW" secondAttribute="bottom" constant="222" id="9ga-OT-lg9"/>
+                            <constraint firstItem="sCS-jv-hx5" firstAttribute="trailing" secondItem="NSh-Aj-fNW" secondAttribute="trailing" constant="153" id="Gov-jF-m8B"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="sCS-jv-hx5"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UMx-a7-5dP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1353" y="1728"/>
         </scene>
         <!--Page View Controller-->
         <scene sceneID="eZE-rs-fqO">

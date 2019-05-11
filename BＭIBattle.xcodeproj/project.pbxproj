@@ -16,6 +16,7 @@
 		CE84DE5722868FB30022DA86 /* FirstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE84DE5622868FB30022DA86 /* FirstPageViewController.swift */; };
 		CE84DE5922868FB60022DA86 /* SecondPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE84DE5822868FB60022DA86 /* SecondPageViewController.swift */; };
 		CE84DE5B228690A10022DA86 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE84DE5A228690A10022DA86 /* PageViewController.swift */; };
+		CE84DE5D22869DC10022DA86 /* ForthPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE84DE5C22869DC10022DA86 /* ForthPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		CE84DE5622868FB30022DA86 /* FirstPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageViewController.swift; sourceTree = "<group>"; };
 		CE84DE5822868FB60022DA86 /* SecondPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPageViewController.swift; sourceTree = "<group>"; };
 		CE84DE5A228690A10022DA86 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		CE84DE5C22869DC10022DA86 /* ForthPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForthPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				CE84DE5622868FB30022DA86 /* FirstPageViewController.swift */,
 				CE84DE5822868FB60022DA86 /* SecondPageViewController.swift */,
 				CE84DE5422868F8B0022DA86 /* ThirdPageViewController.swift */,
+				CE84DE5C22869DC10022DA86 /* ForthPageViewController.swift */,
 				CE84DE5A228690A10022DA86 /* PageViewController.swift */,
 			);
 			path = "BＭIBattle";
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE84DE5522868F8B0022DA86 /* ThirdPageViewController.swift in Sources */,
+				CE84DE5D22869DC10022DA86 /* ForthPageViewController.swift in Sources */,
 				CE84DE4522868D5C0022DA86 /* ViewController.swift in Sources */,
 				CE84DE4322868D5C0022DA86 /* AppDelegate.swift in Sources */,
 				CE84DE5B228690A10022DA86 /* PageViewController.swift in Sources */,
