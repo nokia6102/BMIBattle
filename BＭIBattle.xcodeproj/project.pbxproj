@@ -12,6 +12,10 @@
 		CE84DE4822868D5C0022DA86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE84DE4622868D5C0022DA86 /* Main.storyboard */; };
 		CE84DE4A22868D5E0022DA86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE84DE4922868D5E0022DA86 /* Assets.xcassets */; };
 		CE84DE4D22868D5E0022DA86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE84DE4B22868D5E0022DA86 /* LaunchScreen.storyboard */; };
+		CE84DE5522868F8B0022DA86 /* ThirdPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE84DE5422868F8B0022DA86 /* ThirdPageViewController.swift */; };
+		CE84DE5722868FB30022DA86 /* FirstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE84DE5622868FB30022DA86 /* FirstPageViewController.swift */; };
+		CE84DE5922868FB60022DA86 /* SecondPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE84DE5822868FB60022DA86 /* SecondPageViewController.swift */; };
+		CE84DE5B228690A10022DA86 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE84DE5A228690A10022DA86 /* PageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		CE84DE4922868D5E0022DA86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE84DE4C22868D5E0022DA86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE84DE4E22868D5E0022DA86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE84DE5422868F8B0022DA86 /* ThirdPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPageViewController.swift; sourceTree = "<group>"; };
+		CE84DE5622868FB30022DA86 /* FirstPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageViewController.swift; sourceTree = "<group>"; };
+		CE84DE5822868FB60022DA86 /* SecondPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPageViewController.swift; sourceTree = "<group>"; };
+		CE84DE5A228690A10022DA86 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				CE84DE4922868D5E0022DA86 /* Assets.xcassets */,
 				CE84DE4B22868D5E0022DA86 /* LaunchScreen.storyboard */,
 				CE84DE4E22868D5E0022DA86 /* Info.plist */,
+				CE84DE5622868FB30022DA86 /* FirstPageViewController.swift */,
+				CE84DE5822868FB60022DA86 /* SecondPageViewController.swift */,
+				CE84DE5422868F8B0022DA86 /* ThirdPageViewController.swift */,
+				CE84DE5A228690A10022DA86 /* PageViewController.swift */,
 			);
 			path = "BＭIBattle";
 			sourceTree = "<group>";
@@ -135,8 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE84DE5522868F8B0022DA86 /* ThirdPageViewController.swift in Sources */,
 				CE84DE4522868D5C0022DA86 /* ViewController.swift in Sources */,
 				CE84DE4322868D5C0022DA86 /* AppDelegate.swift in Sources */,
+				CE84DE5B228690A10022DA86 /* PageViewController.swift in Sources */,
+				CE84DE5922868FB60022DA86 /* SecondPageViewController.swift in Sources */,
+				CE84DE5722868FB30022DA86 /* FirstPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
