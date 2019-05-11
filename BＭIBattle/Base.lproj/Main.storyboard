@@ -24,16 +24,21 @@
                                     <segue destination="Jd3-QK-c0l" kind="embed" id="Yi2-xB-BCw"/>
                                 </connections>
                             </containerView>
-                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" translatesAutoresizingMaskIntoConstraints="NO" id="6kd-qt-JQY">
-                                <rect key="frame" x="168" y="526" width="39" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" translatesAutoresizingMaskIntoConstraints="NO" id="6kd-qt-JQY">
+                                <rect key="frame" x="160" y="526" width="55" height="37"/>
+                                <color key="pageIndicatorTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="currentPageIndicatorTintColor" red="0.97427958250045776" green="0.90152150392532349" blue="0.92779248952865601" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </pageControl>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sck-F8-EtA" secondAttribute="trailing" id="7ZL-l9-sLy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6kd-qt-JQY" secondAttribute="bottom" constant="104" id="HHb-bx-feR"/>
+                            <constraint firstItem="6kd-qt-JQY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QLg-9m-HiX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6kd-qt-JQY" secondAttribute="trailing" constant="160" id="aMb-8G-pRV"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sck-F8-EtA" secondAttribute="bottom" id="f4E-nK-lfI"/>
                             <constraint firstItem="sck-F8-EtA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="h8f-uj-TK0"/>
+                            <constraint firstItem="6kd-qt-JQY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="160" id="kZN-vp-5f6"/>
                             <constraint firstItem="sck-F8-EtA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ocS-AK-Daa"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -49,7 +54,7 @@
         <!--First Page View Controller-->
         <scene sceneID="RdN-y8-SAz">
             <objects>
-                <viewController storyboardIdentifier="FirstPageViewController" id="ahJ-Tz-oG2" customClass="FirstPageViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FirstPageViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ahJ-Tz-oG2" customClass="FirstPageViewController" customModule="B_IBattle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="P9o-G5-9JY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -76,7 +81,7 @@
         <!--Second Page View Controller-->
         <scene sceneID="c67-kJ-Tth">
             <objects>
-                <viewController storyboardIdentifier="SecondPageViewController" id="zM3-l1-7wb" customClass="SecondPageViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SecondPageViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="zM3-l1-7wb" customClass="SecondPageViewController" customModule="B_IBattle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hMK-ED-qyY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -250,7 +255,7 @@
         <!--Forth Page View Controller-->
         <scene sceneID="R5i-t9-gpV">
             <objects>
-                <viewController storyboardIdentifier="ThirdPageViewController" id="ODv-Vp-5YZ" customClass="ForthPageViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ThirdPageViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ODv-Vp-5YZ" customClass="ForthPageViewController" customModule="B_IBattle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0k7-ql-9fh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -277,7 +282,7 @@
         <!--Forth Page View Controller-->
         <scene sceneID="R9z-2c-8MT">
             <objects>
-                <viewController storyboardIdentifier="ForthPageViewController" id="elg-G7-tB2" customClass="ForthPageViewController" customModule="B_IBattle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ForthPageViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="elg-G7-tB2" customClass="ForthPageViewController" customModule="B_IBattle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cn0-5R-T4c">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -335,6 +340,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Ls7-il-NXb" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9LK-9M-wdY">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
