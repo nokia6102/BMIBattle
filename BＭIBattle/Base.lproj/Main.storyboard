@@ -291,9 +291,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Intro4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1JT-ns-uaV">
-                                <rect key="frame" x="125" y="303" width="126" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Intro4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1JT-ns-uaV">
+                                <rect key="frame" x="124.5" y="303" width="126" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="guI-4U-UZI"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -312,9 +314,12 @@
                         </subviews>
                         <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="1JT-ns-uaV" firstAttribute="top" secondItem="sCS-jv-hx5" secondAttribute="top" constant="283" id="56S-Dh-l2H"/>
                             <constraint firstItem="NSh-Aj-fNW" firstAttribute="leading" secondItem="sCS-jv-hx5" secondAttribute="leading" constant="153" id="9Yz-yb-Tzh"/>
                             <constraint firstItem="sCS-jv-hx5" firstAttribute="bottom" secondItem="NSh-Aj-fNW" secondAttribute="bottom" constant="222" id="9ga-OT-lg9"/>
+                            <constraint firstItem="1JT-ns-uaV" firstAttribute="centerX" secondItem="cn0-5R-T4c" secondAttribute="centerX" id="C1H-Cz-JiD"/>
                             <constraint firstItem="sCS-jv-hx5" firstAttribute="trailing" secondItem="NSh-Aj-fNW" secondAttribute="trailing" constant="153" id="Gov-jF-m8B"/>
+                            <constraint firstItem="NSh-Aj-fNW" firstAttribute="top" secondItem="1JT-ns-uaV" secondAttribute="bottom" constant="34" id="xvJ-3f-Jzs"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="sCS-jv-hx5"/>
                     </view>
