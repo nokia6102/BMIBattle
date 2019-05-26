@@ -76,7 +76,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ESH-Sq-dao" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1375" y="-361"/>
+            <point key="canvasLocation" x="1373.5999999999999" y="-361.16941529235385"/>
         </scene>
         <!--Second Page View Controller-->
         <scene sceneID="c67-kJ-Tth">
@@ -308,7 +308,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Enter"/>
                                 <connections>
-                                    <segue destination="Ls7-il-NXb" kind="show" id="ioH-Dr-VoE"/>
+                                    <segue destination="beI-Iz-byT" kind="show" id="C2C-ua-Xxf"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -328,6 +328,14 @@
             </objects>
             <point key="canvasLocation" x="1353" y="1728"/>
         </scene>
+        <!--Login-->
+        <scene sceneID="UYD-Vn-c3C">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Login" id="beI-Iz-byT" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B1W-jc-yQk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1935" y="1092"/>
+        </scene>
         <!--Page View Controller-->
         <scene sceneID="eZE-rs-fqO">
             <objects>
@@ -346,7 +354,7 @@
         <!--Base Tab Bar Controller-->
         <scene sceneID="dZd-u5-RW3">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Ls7-il-NXb" customClass="BaseTabBarController" customModule="B_IBattle" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="MenuTab" automaticallyAdjustsScrollViewInsets="NO" id="Ls7-il-NXb" customClass="BaseTabBarController" customModule="B_IBattle" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9LK-9M-wdY">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
@@ -368,7 +376,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WXz-uD-e6z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2301.5999999999999" y="-12.143928035982009"/>
+            <point key="canvasLocation" x="2340" y="-19"/>
         </scene>
     </scenes>
 </document>

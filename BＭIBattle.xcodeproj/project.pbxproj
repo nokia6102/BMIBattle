@@ -18,6 +18,8 @@
 		CE84DE5722868FB30022DA86 /* FirstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE84DE5622868FB30022DA86 /* FirstPageViewController.swift */; };
 		CE84DE5922868FB60022DA86 /* SecondPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE84DE5822868FB60022DA86 /* SecondPageViewController.swift */; };
 		CE84DE5D22869DC10022DA86 /* ForthPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE84DE5C22869DC10022DA86 /* ForthPageViewController.swift */; };
+		DBBE0B25229A5B6E0060AD09 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBE0B24229A5B6E0060AD09 /* Login.storyboard */; };
+		DBBE0B29229A669A0060AD09 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBE0B28229A669A0060AD09 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		CE84DE5622868FB30022DA86 /* FirstPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageViewController.swift; sourceTree = "<group>"; };
 		CE84DE5822868FB60022DA86 /* SecondPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPageViewController.swift; sourceTree = "<group>"; };
 		CE84DE5C22869DC10022DA86 /* ForthPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForthPageViewController.swift; sourceTree = "<group>"; };
+		DBBE0B24229A5B6E0060AD09 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		DBBE0B28229A669A0060AD09 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,7 @@
 				CE84DE4222868D5C0022DA86 /* AppDelegate.swift */,
 				CE84DE4422868D5C0022DA86 /* ViewController.swift */,
 				CE84DE4622868D5C0022DA86 /* Main.storyboard */,
+				DBBE0B24229A5B6E0060AD09 /* Login.storyboard */,
 				CE84DE4922868D5E0022DA86 /* Assets.xcassets */,
 				CE84DE4B22868D5E0022DA86 /* LaunchScreen.storyboard */,
 				CE84DE4E22868D5E0022DA86 /* Info.plist */,
@@ -78,6 +83,7 @@
 				CE84DE5C22869DC10022DA86 /* ForthPageViewController.swift */,
 				CE7E1C082286C3B1004D1117 /* PageViewController.swift */,
 				CE7E1C042286B724004D1117 /* BaseTabBarController.swift */,
+				DBBE0B28229A669A0060AD09 /* Extensions.swift */,
 			);
 			path = "BＭIBattle";
 			sourceTree = "<group>";
@@ -140,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBBE0B25229A5B6E0060AD09 /* Login.storyboard in Resources */,
 				CE84DE4D22868D5E0022DA86 /* LaunchScreen.storyboard in Resources */,
 				CE84DE4A22868D5E0022DA86 /* Assets.xcassets in Resources */,
 				CE84DE4822868D5C0022DA86 /* Main.storyboard in Resources */,
@@ -155,6 +162,7 @@
 			files = (
 				CE7E1C052286B724004D1117 /* BaseTabBarController.swift in Sources */,
 				CE84DE5522868F8B0022DA86 /* ThirdPageViewController.swift in Sources */,
+				DBBE0B29229A669A0060AD09 /* Extensions.swift in Sources */,
 				CE84DE5D22869DC10022DA86 /* ForthPageViewController.swift in Sources */,
 				CE84DE4522868D5C0022DA86 /* ViewController.swift in Sources */,
 				CE84DE4322868D5C0022DA86 /* AppDelegate.swift in Sources */,
@@ -307,13 +315,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A4KC5U64GT;
+				DEVELOPMENT_TEAM = YT6YT5Z5FB;
 				INFOPLIST_FILE = "BＭIBattle/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.my.B-IBattle";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.my.B-IBattle1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -325,13 +333,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A4KC5U64GT;
+				DEVELOPMENT_TEAM = YT6YT5Z5FB;
 				INFOPLIST_FILE = "BＭIBattle/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.my.B-IBattle";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.my.B-IBattle1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yCx-VQ-Mgi">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="oQp-JY-2r7">
+            <objects>
+                <viewController id="yCx-VQ-Mgi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Bov-ba-VT5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="登入頁1" translatesAutoresizingMaskIntoConstraints="NO" id="nN8-At-nAw">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Login1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rk5-xF-n4k">
+                                <rect key="frame" x="166" y="323" width="49" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S6R-CU-vfI">
+                                <rect key="frame" x="60" y="435" width="106" height="44"/>
+                                <color key="backgroundColor" red="0.12941176470588234" green="0.73333333333333328" blue="0.015686274509803921" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="106" id="ZCa-AE-XCl"/>
+                                    <constraint firstAttribute="height" constant="44" id="b6J-53-uc9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="登入">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="22"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="YgI-zz-dbo" kind="show" id="AHx-YB-xPV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qMf-T5-cZN">
+                                <rect key="frame" x="222" y="435" width="106" height="44"/>
+                                <color key="backgroundColor" red="0.12941176469999999" green="0.73333333329999995" blue="0.015686274510000001" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="106" id="bjk-q4-GKk"/>
+                                    <constraint firstAttribute="height" constant="44" id="moO-6t-qON"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="註冊">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="22"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="nN8-At-nAw" firstAttribute="top" secondItem="Bov-ba-VT5" secondAttribute="top" id="73F-mx-yev"/>
+                            <constraint firstItem="jNX-7u-68K" firstAttribute="bottom" secondItem="qMf-T5-cZN" secondAttribute="bottom" constant="188" id="Jtw-lA-0YS"/>
+                            <constraint firstItem="nN8-At-nAw" firstAttribute="trailing" secondItem="jNX-7u-68K" secondAttribute="trailing" id="Q6s-Bo-9jG"/>
+                            <constraint firstItem="jNX-7u-68K" firstAttribute="trailing" secondItem="qMf-T5-cZN" secondAttribute="trailing" constant="47" id="THe-c0-9Kx"/>
+                            <constraint firstItem="S6R-CU-vfI" firstAttribute="leading" secondItem="jNX-7u-68K" secondAttribute="leading" constant="60" id="Y1j-if-Mrg"/>
+                            <constraint firstItem="jNX-7u-68K" firstAttribute="bottom" secondItem="S6R-CU-vfI" secondAttribute="bottom" constant="188" id="eZm-Ik-sqX"/>
+                            <constraint firstItem="qMf-T5-cZN" firstAttribute="leading" secondItem="S6R-CU-vfI" secondAttribute="trailing" constant="56" id="j61-KF-RCa"/>
+                            <constraint firstItem="nN8-At-nAw" firstAttribute="bottom" secondItem="jNX-7u-68K" secondAttribute="bottom" id="mRa-ba-PVw"/>
+                            <constraint firstItem="nN8-At-nAw" firstAttribute="leading" secondItem="jNX-7u-68K" secondAttribute="leading" id="nGN-tM-Jsj"/>
+                            <constraint firstItem="qMf-T5-cZN" firstAttribute="width" secondItem="S6R-CU-vfI" secondAttribute="width" id="rEP-Cv-Ba4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jNX-7u-68K"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hZN-fT-0OZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1897" y="-743"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="sxb-pV-REf">
+            <objects>
+                <viewController id="YgI-zz-dbo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KZl-WE-h6X">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KWv-47-DDF">
+                                <rect key="frame" x="193" y="318" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="yn3-6l-fpl" kind="show" id="QyG-Eh-afW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="AEN-YL-QpM"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pSH-Rv-2Za" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-950" y="-743"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="s8N-Um-exB">
+            <objects>
+                <viewController id="yn3-6l-fpl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PKo-aJ-f0z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1xj-N7-L8g">
+                                <rect key="frame" x="73" y="324" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="ncR-uo-0zf" kind="show" id="M5K-nF-iru"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="LRy-As-PsP"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O3g-G3-EDd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="73" y="-742"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ugQ-9N-mKk">
+            <objects>
+                <viewController id="ncR-uo-0zf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="N2o-ex-GeZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RWA-Cg-OPD">
+                                <rect key="frame" x="188" y="395" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="1ah-WL-Kgc" kind="show" id="ZOi-6q-KON"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="31d-KG-Ixu"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k4d-wy-ovA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1022" y="-743"/>
+        </scene>
+        <!--MenuTab-->
+        <scene sceneID="u52-de-3CI">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" referencedIdentifier="MenuTab" id="1ah-WL-Kgc" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H3j-UQ-pAV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1610" y="-762"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="登入頁1" width="375" height="667"/>
+    </resources>
+</document>
