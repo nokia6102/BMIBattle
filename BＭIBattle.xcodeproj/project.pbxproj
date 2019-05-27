@@ -18,6 +18,7 @@
 		CE84DE5722868FB30022DA86 /* FirstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE84DE5622868FB30022DA86 /* FirstPageViewController.swift */; };
 		CE84DE5922868FB60022DA86 /* SecondPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE84DE5822868FB60022DA86 /* SecondPageViewController.swift */; };
 		CE84DE5D22869DC10022DA86 /* ForthPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE84DE5C22869DC10022DA86 /* ForthPageViewController.swift */; };
+		CEB0E150229BD76C0009C7FD /* Login2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB0E14F229BD76B0009C7FD /* Login2ViewController.swift */; };
 		DB2910A6229A89F5009B4BB9 /* Login1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2910A5229A89F5009B4BB9 /* Login1ViewController.swift */; };
 		DBBE0B25229A5B6E0060AD09 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBE0B24229A5B6E0060AD09 /* Login.storyboard */; };
 		DBBE0B29229A669A0060AD09 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBE0B28229A669A0060AD09 /* Extensions.swift */; };
@@ -37,6 +38,7 @@
 		CE84DE5622868FB30022DA86 /* FirstPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageViewController.swift; sourceTree = "<group>"; };
 		CE84DE5822868FB60022DA86 /* SecondPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPageViewController.swift; sourceTree = "<group>"; };
 		CE84DE5C22869DC10022DA86 /* ForthPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForthPageViewController.swift; sourceTree = "<group>"; };
+		CEB0E14F229BD76B0009C7FD /* Login2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login2ViewController.swift; sourceTree = "<group>"; };
 		DB2910A5229A89F5009B4BB9 /* Login1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login1ViewController.swift; sourceTree = "<group>"; };
 		DBBE0B24229A5B6E0060AD09 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		DBBE0B28229A669A0060AD09 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				CE84DE4622868D5C0022DA86 /* Main.storyboard */,
 				DBBE0B24229A5B6E0060AD09 /* Login.storyboard */,
 				DB2910A5229A89F5009B4BB9 /* Login1ViewController.swift */,
+				CEB0E14F229BD76B0009C7FD /* Login2ViewController.swift */,
 				CE84DE4922868D5E0022DA86 /* Assets.xcassets */,
 				CE84DE4B22868D5E0022DA86 /* LaunchScreen.storyboard */,
 				CE84DE4E22868D5E0022DA86 /* Info.plist */,
@@ -169,6 +172,7 @@
 				CE84DE5D22869DC10022DA86 /* ForthPageViewController.swift in Sources */,
 				CE84DE4522868D5C0022DA86 /* ViewController.swift in Sources */,
 				CE84DE4322868D5C0022DA86 /* AppDelegate.swift in Sources */,
+				CEB0E150229BD76C0009C7FD /* Login2ViewController.swift in Sources */,
 				CE84DE5922868FB60022DA86 /* SecondPageViewController.swift in Sources */,
 				CE84DE5722868FB30022DA86 /* FirstPageViewController.swift in Sources */,
 				DB2910A6229A89F5009B4BB9 /* Login1ViewController.swift in Sources */,
