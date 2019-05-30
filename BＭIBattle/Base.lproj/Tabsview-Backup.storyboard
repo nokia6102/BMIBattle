@@ -161,10 +161,10 @@
             </objects>
             <point key="canvasLocation" x="3169" y="2434"/>
         </scene>
-        <!--My Tab Bar Controller-->
+        <!--Base Tab Bar Controller-->
         <scene sceneID="dZd-u5-RW3">
             <objects>
-                <tabBarController storyboardIdentifier="MenuTab" automaticallyAdjustsScrollViewInsets="NO" id="Ls7-il-NXb" customClass="myTabBarController" customModule="B_IBattle" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="MenuTab" automaticallyAdjustsScrollViewInsets="NO" id="Ls7-il-NXb" customClass="BaseTabBarController" customModule="B_IBattle" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9LK-9M-wdY">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
