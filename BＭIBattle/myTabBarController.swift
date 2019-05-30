@@ -13,8 +13,8 @@ class myTabBarController: UITabBarController {
          //設定預設的tabs index
          self.selectedIndex = defaultIndex
         
-        if UIImage(named: "bee") != nil {
-            self.addCenterButton(withImage: #imageLiteral(resourceName: "bmiLogo"), highlightImage: #imageLiteral(resourceName: "bmiLogo"))
+        if UIImage(named: "Icon_Tab3") != nil {
+            self.addCenterButton(withImage: #imageLiteral(resourceName: "Icon_Tab3"), highlightImage: #imageLiteral(resourceName: "Icon_Tab3"))
         }
     
 
@@ -60,7 +60,7 @@ class myTabBarController: UITabBarController {
         {
             let i = floor(Double(count / 2))
             let item = self.tabBar.items![Int(i)]
-            item.title = "即時定位"
+            item.title = ""
         }
     }
     
