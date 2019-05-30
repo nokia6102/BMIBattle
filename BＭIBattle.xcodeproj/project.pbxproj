@@ -20,6 +20,7 @@
 		CE84DE5D22869DC10022DA86 /* ForthPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE84DE5C22869DC10022DA86 /* ForthPageViewController.swift */; };
 		CEB0E150229BD76C0009C7FD /* Login2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB0E14F229BD76B0009C7FD /* Login2ViewController.swift */; };
 		CEB0E155229FDDE70009C7FD /* Intro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB0E153229FDDE70009C7FD /* Intro.storyboard */; };
+		CEB0E15922A005B10009C7FD /* FriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB0E15822A005B10009C7FD /* FriendsTableViewCell.swift */; };
 		DB2910A6229A89F5009B4BB9 /* Login1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2910A5229A89F5009B4BB9 /* Login1ViewController.swift */; };
 		DBBE0B25229A5B6E0060AD09 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBE0B24229A5B6E0060AD09 /* Login.storyboard */; };
 		DBBE0B29229A669A0060AD09 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBE0B28229A669A0060AD09 /* Extensions.swift */; };
@@ -41,6 +42,7 @@
 		CE84DE5C22869DC10022DA86 /* ForthPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForthPageViewController.swift; sourceTree = "<group>"; };
 		CEB0E14F229BD76B0009C7FD /* Login2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login2ViewController.swift; sourceTree = "<group>"; };
 		CEB0E154229FDDE70009C7FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Intro.storyboard; sourceTree = "<group>"; };
+		CEB0E15822A005B10009C7FD /* FriendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewCell.swift; sourceTree = "<group>"; };
 		DB2910A5229A89F5009B4BB9 /* Login1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login1ViewController.swift; sourceTree = "<group>"; };
 		DBBE0B24229A5B6E0060AD09 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		DBBE0B28229A669A0060AD09 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				CE7E1C082286C3B1004D1117 /* PageViewController.swift */,
 				CE7E1C042286B724004D1117 /* BaseTabBarController.swift */,
 				DBBE0B28229A669A0060AD09 /* Extensions.swift */,
+				CEB0E15822A005B10009C7FD /* FriendsTableViewCell.swift */,
 			);
 			path = "BＭIBattle";
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				CE7E1C052286B724004D1117 /* BaseTabBarController.swift in Sources */,
 				CE84DE5522868F8B0022DA86 /* ThirdPageViewController.swift in Sources */,
 				DBBE0B29229A669A0060AD09 /* Extensions.swift in Sources */,
+				CEB0E15922A005B10009C7FD /* FriendsTableViewCell.swift in Sources */,
 				CE84DE5D22869DC10022DA86 /* ForthPageViewController.swift in Sources */,
 				CE84DE4522868D5C0022DA86 /* ViewController.swift in Sources */,
 				CE84DE4322868D5C0022DA86 /* AppDelegate.swift in Sources */,
@@ -334,15 +338,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YT6YT5Z5FB;
+				DEVELOPMENT_TEAM = A4KC5U64GT;
 				INFOPLIST_FILE = "BＭIBattle/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.my.B-IBattle1";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.my.B-IBattle2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -352,15 +358,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YT6YT5Z5FB;
+				DEVELOPMENT_TEAM = A4KC5U64GT;
 				INFOPLIST_FILE = "BＭIBattle/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.my.B-IBattle1";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.my.B-IBattle2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
