@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -32,7 +33,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ryc-7g-jLr"/>
                     </view>
-                    <tabBarItem key="tabBarItem" image="Icon_Tab1" id="rbb-S2-arG"/>
+                    <tabBarItem key="tabBarItem" image="Icon_Tab1_d" selectedImage="Icon_Tab1" id="rbb-S2-arG">
+                        <inset key="imageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="-10"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DZY-Es-E4V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -60,7 +63,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="KKd-aY-1pK"/>
                     </view>
-                    <tabBarItem key="tabBarItem" image="Icon_Tab2" id="YmS-dA-bqw"/>
+                    <tabBarItem key="tabBarItem" image="Icon_Tab2_d" selectedImage="Icon_Tab2" id="YmS-dA-bqw">
+                        <inset key="imageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="-10"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VKj-zz-w6D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -99,7 +104,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7Nm-Vz-ycl"/>
                     </view>
-                    <tabBarItem key="tabBarItem" image="Icon_Tab3" id="qSe-CN-yNC">
+                    <tabBarItem key="tabBarItem" image="Icon_Tab3_d" selectedImage="Icon_Tab3" id="qSe-CN-yNC">
                         <inset key="imageInsets" minX="0.0" minY="-25" maxX="0.0" maxY="0.0"/>
                     </tabBarItem>
                 </viewController>
@@ -129,7 +134,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Z8S-Ck-JCg"/>
                     </view>
-                    <tabBarItem key="tabBarItem" image="Icon_Tab4" id="WPu-zu-L15"/>
+                    <tabBarItem key="tabBarItem" image="Icon_Tab4_d" selectedImage="Icon_Tab4" id="WPu-zu-L15">
+                        <inset key="imageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="-10"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Quv-eE-nbb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -157,7 +164,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="D4j-0J-ci0"/>
                     </view>
-                    <tabBarItem key="tabBarItem" image="Icon_Tab5" id="aSU-a5-OPr"/>
+                    <tabBarItem key="tabBarItem" image="Icon_Tab5_d" selectedImage="Icon_Tab5" id="aSU-a5-OPr">
+                        <inset key="imageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="-10"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VIz-5N-OrG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -168,14 +177,15 @@
             <objects>
                 <tabBarController storyboardIdentifier="MenuTab" automaticallyAdjustsScrollViewInsets="NO" id="Ls7-il-NXb" customClass="BaseTabBarController" customModule="B_IBattle" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9LK-9M-wdY">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" backgroundImage="img_tabBg" id="9LK-9M-wdY">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" name="Color_TabbarBackgound"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="defaultIndex">
-                            <integer key="value" value="2"/>
+                            <integer key="value" value="0"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                     <connections>
@@ -193,9 +203,18 @@
     </scenes>
     <resources>
         <image name="Icon_Tab1" width="26" height="26"/>
+        <image name="Icon_Tab1_d" width="26" height="26"/>
         <image name="Icon_Tab2" width="26" height="25.5"/>
+        <image name="Icon_Tab2_d" width="26" height="25.5"/>
         <image name="Icon_Tab3" width="60" height="60"/>
+        <image name="Icon_Tab3_d" width="60" height="60"/>
         <image name="Icon_Tab4" width="26" height="26"/>
+        <image name="Icon_Tab4_d" width="26" height="26"/>
         <image name="Icon_Tab5" width="26" height="26"/>
+        <image name="Icon_Tab5_d" width="26" height="26"/>
+        <image name="img_tabBg" width="375" height="49"/>
+        <namedColor name="Color_TabbarBackgound">
+            <color red="0.12941176470588237" green="0.73333333333333328" blue="0.015686274509803921" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
     </resources>
 </document>
