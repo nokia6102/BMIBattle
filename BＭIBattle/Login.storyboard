@@ -45,8 +45,7 @@
                                 <rect key="frame" x="209" y="435" width="106" height="44"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="1rU-Pc-rW0"/>
-                                    <constraint firstAttribute="width" constant="106" id="KNQ-A0-Mhh"/>
+                                    <constraint firstAttribute="height" constant="44" id="u4J-u8-yMe"/>
                                 </constraints>
                                 <state key="normal" title="註冊" backgroundImage="img_ButtonBg">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -107,17 +106,21 @@
                         <constraints>
                             <constraint firstItem="nN8-At-nAw" firstAttribute="leading" secondItem="jNX-7u-68K" secondAttribute="leading" id="0vF-Hy-4Ea"/>
                             <constraint firstItem="q3p-aT-nZu" firstAttribute="top" secondItem="S6R-CU-vfI" secondAttribute="bottom" constant="25" id="3gt-ai-jeJ"/>
+                            <constraint firstAttribute="bottom" secondItem="nN8-At-nAw" secondAttribute="bottom" id="7Nk-20-mwD"/>
                             <constraint firstAttribute="bottom" secondItem="S6R-CU-vfI" secondAttribute="bottom" constant="188" id="Iyx-lE-G1T"/>
                             <constraint firstAttribute="trailing" secondItem="Bo3-gJ-qFk" secondAttribute="trailing" constant="24" id="JOI-HI-jfV"/>
+                            <constraint firstItem="qMf-T5-cZN" firstAttribute="width" secondItem="S6R-CU-vfI" secondAttribute="width" id="ZXQ-AN-048"/>
+                            <constraint firstItem="nN8-At-nAw" firstAttribute="trailing" secondItem="jNX-7u-68K" secondAttribute="trailing" id="bp3-6d-5cy"/>
                             <constraint firstItem="S6R-CU-vfI" firstAttribute="leading" secondItem="jNX-7u-68K" secondAttribute="leading" constant="60" id="cAi-Iu-v5J"/>
+                            <constraint firstItem="nN8-At-nAw" firstAttribute="top" secondItem="Bov-ba-VT5" secondAttribute="top" id="ci2-6D-NAp"/>
+                            <constraint firstItem="nN8-At-nAw" firstAttribute="leading" secondItem="jNX-7u-68K" secondAttribute="leading" id="dxH-HO-GJV"/>
                             <constraint firstItem="Bo3-gJ-qFk" firstAttribute="top" secondItem="jNX-7u-68K" secondAttribute="top" constant="57" id="dyz-du-PeQ"/>
                             <constraint firstItem="q3p-aT-nZu" firstAttribute="centerX" secondItem="Bov-ba-VT5" secondAttribute="centerX" id="gzZ-1q-3GO"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="qMf-T5-cZN" secondAttribute="bottom" constant="188" id="hNx-Ru-ZwP"/>
-                            <constraint firstItem="jNX-7u-68K" firstAttribute="trailing" secondItem="qMf-T5-cZN" secondAttribute="trailing" constant="60" id="ihM-Ti-LRp"/>
                             <constraint firstItem="nN8-At-nAw" firstAttribute="bottom" secondItem="jNX-7u-68K" secondAttribute="bottom" id="jsf-fq-6jk"/>
                             <constraint firstItem="nN8-At-nAw" firstAttribute="top" secondItem="Bov-ba-VT5" secondAttribute="top" id="k4G-hc-Rxk"/>
+                            <constraint firstItem="jNX-7u-68K" firstAttribute="trailing" secondItem="qMf-T5-cZN" secondAttribute="trailing" constant="60" id="kC2-Hc-1au"/>
                             <constraint firstItem="nN8-At-nAw" firstAttribute="trailing" secondItem="jNX-7u-68K" secondAttribute="trailing" id="q0p-Jy-gpf"/>
-                            <constraint firstItem="qMf-T5-cZN" firstAttribute="width" secondItem="S6R-CU-vfI" secondAttribute="width" id="rRC-Gc-Foq"/>
+                            <constraint firstItem="qMf-T5-cZN" firstAttribute="centerY" secondItem="S6R-CU-vfI" secondAttribute="centerY" id="ycZ-XH-REm"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="jNX-7u-68K"/>
                     </view>
@@ -290,18 +293,18 @@
                                 <rect key="frame" x="89" y="491" width="270" height="8"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xq2-it-u5p">
+                                <rect key="frame" x="88" y="255" width="58" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="img_Gril"/>
+                                <state key="selected" image="img_Girl-d"/>
+                                <state key="highlighted" image="img_Girl-d"/>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ykj-Qf-kTL">
                                 <rect key="frame" x="218" y="243" width="103" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="img_Boy"/>
                                 <state key="highlighted" image="img_Boy-d"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xq2-it-u5p">
-                                <rect key="frame" x="89" y="267" width="58" height="104"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="img_Gril"/>
-                                <state key="selected" image="img_Girl-d"/>
-                                <state key="highlighted" image="img_Girl-d"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
