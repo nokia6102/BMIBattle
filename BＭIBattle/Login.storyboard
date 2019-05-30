@@ -222,7 +222,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Img_login2" translatesAutoresizingMaskIntoConstraints="NO" id="flu-Z7-6ok">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_Hline" translatesAutoresizingMaskIntoConstraints="NO" id="flu-Z7-6ok">
                                 <rect key="frame" x="72" y="238" width="231" height="129"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="129" id="5TH-75-oUJ"/>
@@ -290,6 +290,19 @@
                                 <rect key="frame" x="89" y="491" width="270" height="8"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ykj-Qf-kTL">
+                                <rect key="frame" x="218" y="243" width="103" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="img_Boy"/>
+                                <state key="highlighted" image="img_Boy-d"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xq2-it-u5p">
+                                <rect key="frame" x="89" y="267" width="58" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="img_Gril"/>
+                                <state key="selected" image="img_Girl-d"/>
+                                <state key="highlighted" image="img_Girl-d"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -506,13 +519,17 @@
         <image name="Icon_Weight" width="26" height="26"/>
         <image name="Icon_mail" width="26" height="26"/>
         <image name="Img_Line" width="291" height="1"/>
-        <image name="Img_login2" width="214" height="130"/>
         <image name="bg2" width="375" height="667"/>
         <image name="bmiLogo" width="144" height="137.5"/>
         <image name="facebook" width="60" height="60"/>
         <image name="g+-1" width="60" height="60"/>
         <image name="icon_Header" width="86" height="86"/>
+        <image name="img_Boy" width="103" height="128"/>
+        <image name="img_Boy-d" width="108" height="133"/>
         <image name="img_ButtonBg" width="106" height="44"/>
+        <image name="img_Girl-d" width="63" height="109"/>
+        <image name="img_Gril" width="58" height="104"/>
+        <image name="img_Hline" width="1" height="130"/>
         <image name="phone" width="60" height="60"/>
         <image name="登入頁1" width="375" height="667"/>
         <namedColor name="Color">
